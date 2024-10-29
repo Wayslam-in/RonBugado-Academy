@@ -1,6 +1,6 @@
 *** Settings ***
-Library   SeleniumLibrary
-Resource  ./variables.resource
+Library       SeleniumLibrary
+Resource      ./variables.resource
 
 *** Keywords ***
 
