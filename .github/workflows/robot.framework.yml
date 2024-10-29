@@ -18,16 +18,16 @@ jobs:
 
     - name: Instalação das Dependencias
       run: |
-        pip install -r requirements.txt
-        # pip install robotframework
-        # pip install robotframework-requests
-        # pip install Faker
-        # pip install robotframework-seleniumlibrary
-        # pip install robotframework-seleniumlibrary  # Instala SeleniumLibrary
-        # pip install selenium  # Instala a biblioteca Selenium necessária para SeleniumLibrary
-        # # Instala o chromedriver-binary para o Chrome
+        pip install robotframework
+        pip install robotframework-requests
+        pip install Faker
+        pip install robotframework-seleniumlibrary
+        pip install robotframework-seleniumlibrary  # Instala SeleniumLibrary
+        pip install selenium  # Instala a biblioteca Selenium necessária para SeleniumLibrary
+        # Instala o chromedriver-binary para o Chrome
         # pip install chromedriver-binary
-
+        python -m pip show robotframework-seleniumlibrary
+        
     - name: Executando os testes de API do Robot
       run: |
         robot --outputdir results/ tests/
