@@ -2,8 +2,8 @@
 
 Resource            ../resources/1-login.resource
 Resource            ../resources/2-user.resource
-Test Setup          Abrir o navegador
-Test Teardown       Fechar o navegador
+Test Setup          Abrir o navegador 
+Test Teardown       Fechar o navegador 
 
 *** Test Cases ***
 Cenário de testes 01:login do usuário perfil administrador com sucesso
