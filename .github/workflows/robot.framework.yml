@@ -21,6 +21,7 @@ jobs:
         pip install robotframework
         pip install robotframework-requests
         pip install Faker
+        pip install robotframework-seleniumlibrary
 
     - name: Executando os testes de API do Robot
       run: |
@@ -66,5 +67,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
 
-        
+
     
