@@ -21,11 +21,9 @@ jobs:
         pip install robotframework
         pip install robotframework-requests
         pip install Faker
-        pip install robotframework-seleniumlibrary
-        pip install robotframework-seleniumlibrary  # Instala SeleniumLibrary
-        pip install selenium  # Instala a biblioteca Selenium necessária para SeleniumLibrary
-        # Instala o chromedriver-binary para o Chrome
-        # pip install chromedriver-binary
+        pip install robotframework-seleniumlibrary 
+        pip install selenium 
+       
         python -m pip show robotframework-seleniumlibrary
         
     - name: Executando os testes de API do Robot
