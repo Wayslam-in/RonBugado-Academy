@@ -14,7 +14,7 @@ jobs:
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.x'
+        python-version: '2.47'
 
     - name: Instalação das Dependencias
       run: |
@@ -22,6 +22,10 @@ jobs:
         pip install robotframework-requests
         pip install Faker
         pip install robotframework-seleniumlibrary
+        pip install robotframework-seleniumlibrary  # Instala SeleniumLibrary
+        pip install selenium  # Instala a biblioteca Selenium necessária para SeleniumLibrary
+        # Instala o chromedriver-binary para o Chrome
+        pip install chromedriver-binary
 
     - name: Executando os testes de API do Robot
       run: |
