@@ -25,4 +25,4 @@ Logar com sysadmin: Clicar No Botao Entrar
 
 Logar com sysadmin: Verificar Se Realmente Entrou No Sistema    
     Wait Until Page Contains    text=Logout
-    Sleep    3
+    Sleep    4
