@@ -128,7 +128,7 @@ Cenário de testes 11: Clicar para cadastrar DESCRIÇÃO DO SERVIÇO
     Clicar para cadastrar TELEFONE
     Clicar para cadastrar DESCRIÇÃO DO SERVIÇO
 
-Cenário de testes 13: Clicar para cadastrar NOME DO RESPONSAVEL
+Cenário de testes 12: Clicar para cadastrar NOME DO RESPONSAVEL
     Logar com sysadmin: Digitar um e-mail Valido
     Logar com sysadmin: Digitar Uma Senha Valida 
     Logar com sysadmin: Clicar No Botao Entrar
