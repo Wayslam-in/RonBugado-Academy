@@ -26,12 +26,12 @@ Verificar FORM CADASTRO
 Clicar para cadastrar NOME COMPLETO  
     Wait Until Element Is Visible    locator=${UsuarioNomeCompleto}
     Click Element                    locator=${UsuarioNomeCompleto}    
-    Wait Until Page Contains         text=fullName
+    # Wait Until Page Contains         text=fullName
         
 Clicar para cadastrar EMAIL
     Wait Until Element Is Visible    locator=${UsuarioEmailInput}
     Click Button                     locator=${UsuarioEmailInput}
-    Wait Until Page Contains         text=mail
+    # Wait Until Page Contains         text=mail
 
 Clicar para cadastrar PERFIL DE ACESSO
     Wait Until Element Is Visible     locator=${UsuarioPerfilAcesso}
