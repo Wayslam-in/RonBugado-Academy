@@ -1,4 +1,4 @@
-## PROJETO: Testes de Frontend com Robot: ronbugado-academy12.2-front-end
+## PROJETO FINAL ACADEMY T12.2.2024: Testes de Frontend com Robot
 ## AUTOR: Wayslan Miranda
 ## SQUAD: RonBugado-Academy
 ## Conhecimento colocado em Prática
