@@ -5,6 +5,6 @@
 - FRONT-END COM ROBOT FRAMEWORK
 - GIT ACTION
 ## Média: https://github.com/Wayslan-in/RonBugado-Academy/issues/1#issue-2635926608
-## Squad: Wayslan Miranda, Francisco Vanderson, Loysi Dias, Raphaela Teada, Iza, Joao Luz
+## Squad: Wayslan Miranda, Francisco Vanderson, Loysi Dias, Raphaela Teada, Iza Wicki, Joao Luz
 
   
