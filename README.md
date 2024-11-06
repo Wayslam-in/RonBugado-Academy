@@ -6,7 +6,7 @@
 - GIT ACTION
 ## Média: https://github.com/Wayslan-in/RonBugado-Academy/issues/1#issue-2635926608
 ## Squad: RON BUGADO
-[01] Wayslan Miranda, 
+[01] Wayslan Miranda, <BR>
 [02] Francisco Vanderson, 
 [03] Loysi Dias, 
 [04] Raphaela Teada, 
