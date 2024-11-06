@@ -46,7 +46,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages  
-      url: https://Projeto-in.github.io/Squad.RonBugado-academy-frontend/report.html
+      url: https://Wayslan-in.github.io/Squad.RonBugado-academy-frontend/report.html
 
     steps:
       - name: SETUP PAGES
