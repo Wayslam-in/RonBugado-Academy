@@ -8,21 +8,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Clonar arquivos do repositorio
+    - name: CLONAR ARQUIVOS DE REPOSITORIO
       uses: actions/checkout@v4
 
-    - name: Configurar Python
+    - name: CONFIGURAR PYTHON
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
-    - name: Instalação das Dependencias
+    - name: INSTALAÇÃO DAS DEPENDENCIAS
       run: |
         pip install robotframework
         pip install robotframework-requests
         pip install Faker
         pip install robotframework-seleniumlibrary
-    - name: Executando os testes de API do Robot
+
+    - name: EXECUTANDO OS TESTES DE API DO ROBOT
       run: |
         robot --outputdir results/ tests/
       
@@ -48,21 +49,21 @@ jobs:
       url: https://Projeto-in.github.io/Squad.RonBugado-academy-frontend/report.html
 
     steps:
-      - name: Setup Pages
+      - name: SETUP PAGES
         uses: actions/configure-pages@v2
 
-      - name: Download Artifacts
+      - name: DOWNLOAD ARTIFACTS
         uses: actions/download-artifact@v4
         with: 
           name: robot-framework-report
           path: results/
 
-      - name: Upload artifact
+      - name: UPLOAD ARTIFACT
         uses: actions/upload-pages-artifact@v1
         with:
           path: results/
 
-      - name: Deploy to Github Pages
+      - name: DEPLOY TO GITHUB PAGES
         id: deployment
         uses: actions/deploy-pages@v1
 
